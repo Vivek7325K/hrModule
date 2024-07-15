@@ -1,0 +1,61 @@
+name: HrModule
+description: A new Flutter project.
+
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  http: ^0.13.5
+  uuid: ^3.0.6
+  shared_preferences: ^2.0.15
+  flutter_screenutil: ^5.5.4
+  data_table_2: ^2.3.9
+  local_auth: ^2.1.2
+  intl: ^0.17.0
+  file_picker: ^5.2.2
+  infinite_scroll_pagination: ^3.2.0
+  flutter_easyloading: ^3.0.5
+  url_launcher: ^6.1.7
+  flutter_share: ^2.0.0
+  path_provider: ^2.0.11
+  flutter_form_builder: ^7.7.0
+  form_builder_validators: ^8.4.0
+  flutter_typeahead: ^4.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: "^0.10.0"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/icons/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: fonts/Poppins-Regular.ttf
+        - asset: fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: fonts/Poppins-Bold.ttf
+          weight: 700
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/appicon.png"
+  remove_alpha_ios: true
